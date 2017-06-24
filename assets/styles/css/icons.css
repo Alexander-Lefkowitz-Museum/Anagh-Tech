@@ -1,0 +1,81 @@
+span.icon {
+     background-color: transparent;
+     background-image: url("../../images/sprites/sprites.png?h=37d3tg");
+     background-repeat: no-repeat;
+     display: inline-block;
+     height: 0px;
+     width: 0px;
+}
+
+.icon.login {
+     background-position: -258px -84px;
+     margin-bottom: -3px;
+     padding-left: 25px;
+     padding-top: 23px;
+}
+
+.icon.contact {
+     background-position: -226px -80px;
+     margin-bottom: -3px;
+     padding-left: 23px;
+     padding-top: 20px;
+}
+
+.icon.jobSeek {
+     background-position: -170px -126px;
+     margin-bottom: -4px;
+     padding-left: 25px;
+     padding-top: 21px;
+}
+
+.icon.home {
+     background-position: -432px -65px;
+     margin-bottom: -4px;
+     padding-left: 29px;
+     padding-top: 41px;
+}
+
+.icon.about {
+     background-position: -468px -81px;
+     margin-bottom: -5px;
+     padding-left: 26px;
+     padding-top: 25px;
+}
+
+.icon.services {
+     background-position: -503px -69px;
+     margin-bottom: -7px;
+     padding-left: 27px;
+     padding-top: 37px;
+}
+
+.icon.clients {
+     background-position: -565px -75px;
+     margin-bottom: -7px;
+     padding-left: 36px;
+     padding-top: 30px;
+}
+
+.icon.facebook {
+     background-position: 0px 0px;
+     padding-left: 32px;
+     padding-right: 32px;
+}
+
+.icon.twitter {
+     background-position: 0px 0px;
+     padding-left: 32px;
+     padding-right: 32px;
+}
+
+.icon.googlePlus {
+     background-position: 0px 0px;
+     padding-left: 32px;
+     padding-right: 32px;
+}
+
+.icon.linkedIn {
+     background-position: 0px 0px;
+     padding-left: 32px;
+     padding-right: 32px;
+}

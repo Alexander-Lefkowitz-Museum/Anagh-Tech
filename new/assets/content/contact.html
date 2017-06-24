@@ -1,0 +1,189 @@
+<style>
+#contactform{
+	overflow: hidden;
+	width: 900px;
+	margin: 0 auto;
+	margin-top: -15px;
+}
+#contactform p#contactheader > .left{
+	display: block;
+	width: 50%;
+	float: left;
+}
+#contactform p#contactheader > .right{
+	width: 50%;
+	display: block;
+	float: left;
+}
+#contactform p#contactheader a{
+	color: #91cc08;
+	text-decoration: none;
+	text-shadow: 0px 0px 10px rgba(182,255,10,0.5);
+}
+#contactform p#contactheader a:hover{
+	color: #a3e509;
+	text-decoration: none;
+	text-shadow: 0px 0px 2px #fff;
+}
+#contactform p#contactheader {
+	width: 90%;
+	margin: 24px auto ;	
+	display: block;
+	overflow: hidden;
+	clear: both;
+	text-align: justify;
+	font-size: 14pt;
+	text-shadow: 0px 1px 5px rgba(255,255,200,1) !important;
+	line-height: 18pt !important;
+	background: url('assets/images/photography/typingbg.png') center center no-repeat;
+    background-size:   90% 100%;    
+}
+#contactform p#contactheader > span{
+	margin-bottom: 10px;
+}
+#contactform p#contactheader span.chead{
+display: block;
+margin-bottom: 2px;
+font-weight: 600;
+font-size: 110%;
+}
+#contactform p img{
+	display: inline;
+	width: 30%;
+	margin: 0 0 0 5%;
+	overflow: hidden;
+
+
+}
+#contactform p#contactheader span.address{
+	display: block;
+	margin-bottom: 20px;
+}
+
+#contactform p#contactheader span.othercontact{
+	display: block;
+}
+#contactform p#contactheader span.othercontact label{
+	width: 25%;
+	display: inline-block;
+}
+
+#contactform input, #contactform textarea{
+	font-size: 17pt;
+	color: #fff;
+	background: rgba(100,180,170,0.7);
+	text-shadow: 0px 0px 5px rgba(90,255,225,0.86);
+	border-radius: 4px;
+	letter-spacing: 1pt;
+}
+#contactform input{
+	border-radius: 4px;
+	padding: 5pt;
+
+}
+#contactform input[type=text]{
+	width: 80%;
+	vertical-align: middle;
+	display: inline-block;
+
+}
+#contactform textarea{
+display: block;
+width: 90%;
+height: 300px;
+padding: 7pt;
+margin: 5px auto;
+}
+#contactform > label{
+	padding-left: 5%;
+	display: inline-block;
+	font-size: 13pt;
+	width: 15%;
+	line-height: 38pt;
+	vertical-align: middle;
+}
+#contactform input[type=submit]{
+	margin: 18px auto;
+	display: block;
+	padding: 10px;
+	width: 30%;
+}
+
+#contactform input[type=submit]:hover{
+	box-shadow: 0px 0px 3px rgba(255,255,255,1), 0px 0px 10px rgba(0,220,100,0.5);
+	color: #eff;
+	text-shadow: 1px 1px 10px rgba(90,255,225,1);
+	
+}
+</style>
+<section>
+	<div id="content">
+		<div>
+		<h2><span>Contact</span></h2>
+<form action="takecontact.php" method="POST">
+<div id="contactform">
+
+<p id="contactheader">
+
+<span class="left">
+	<span class='chead'>Anagh Technologies Inc.</span>
+	<span class="address">
+	2 Lakeview Ave, Suite 310<br>
+	Piscataway, NJ<br>
+	08854
+	</span>
+
+	<span class="othercontact">
+	<label>Telephone</label> +1 732-529-5655<br>
+	<label>FAX</label> +1 732-907-1036<br>
+	<label>E-mail</label> <a href="mailto:contact@anaghtech.com">contact@anaghtech.com</a>
+	</span>
+</span>
+
+<span class="right">
+
+	<span class="chead">California Branch</span>
+	<span class="address">
+	Anagh Technologies Inc.<br>
+	<span title="At Pacific Heights Blvd">6455 Lusk Blvd</span><br>
+	San Diego, CA 92121
+	<br><br>
+	<label>Telephone</label> +1 619-363-1077
+	</span>
+	
+	<span class='chead'>Branch Office</span>
+	<span class="address">
+	1201 First Ave,<br>
+	South Sioux City, NE<br>
+	68776
+	</span>
+
+	<span class='chead'>India Branch</span>
+	<span class="address">
+	Anagh Technologies Inc.<br>
+	22/B Taskand Soc,<br>
+	Vadodara, 390002<br>
+	Gujarat
+	</span>
+
+</span>
+</p>
+
+
+
+<hr>
+
+
+<label for="name">Name</label><input type="text" name="name" id="name">
+<label for="email">E-mail</label><input type="text" name="email" id="email">
+<label for="phone">Phone</label><input type="text" name="phone" id="phone">
+<textarea name="message"></textarea>
+
+<input type="submit" value="Send">
+&#8232;
+</div>
+</form>
+		</div>
+	</div>
+</section>
+

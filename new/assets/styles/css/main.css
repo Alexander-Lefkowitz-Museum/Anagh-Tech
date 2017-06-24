@@ -1,0 +1,630 @@
+* {
+     border: 0px none;
+     box-sizing: border-box;
+     margin: 0px;
+     outline: 0px none;
+     padding: 0px;
+}
+
+html, body {
+     height: 100%;
+}
+
+a, select {
+     transition-duration: 0.4s;
+}
+
+.hr {
+     display: block;
+     margin: 20px auto;
+     opacity: 0.25;
+     clear: both;
+     
+}
+
+ul, ol {
+     margin: 0px;
+     padding: 0px;
+}
+
+#navigation h3 {
+     margin: 0px;
+}
+
+body {
+     background-attachment: fixed;
+     background-image: url("../../images/backgrounds/squared_metal_@2X.png");
+}
+
+#contain {
+     font-size: 0px;
+     margin-top: 47px;
+     min-width: 900px;
+     width: 100%;
+}
+
+#contain header {
+     background-color: #000000;
+     background-image: url("../../images/backgrounds/zwartevilt.png");
+     box-shadow: 0px 0px 10px #333333;
+     color: #ffffff;
+     font-size: 14px;
+     left: 0px;
+     overflow: hidden;
+     padding: 6px 16px 0px;
+     position: fixed;
+     right: 0px;
+     top: 0px;
+     z-index: 100;
+}
+
+#contain header .anaghTitle {
+    
+}
+
+#contain header .anaghTitle a {
+     color: #dddddd;
+     display: inline-block;
+     font-size: 18px;
+     line-height: 36px;
+     margin: 0px;
+     text-decoration: none;
+}
+
+#contain header ul {
+     float: right;
+     font-size: 0px;
+     line-height: 36px;
+     padding: 0px;
+     white-space: nowrap;
+}
+
+#contain header ul li {
+     display: inline-block;
+     font-size: 15px;
+     padding: 0px 0px 0px 16px;
+}
+
+#contain header ul li a {
+     color: #dddddd;
+     text-decoration: none;
+}
+
+#content-contain nav#main {
+     background: none repeat scroll 0% 0% #fafafa;
+     box-shadow: 0px 6px 49px rgba(20, 20, 20, 0.35);
+     height: 115px;
+     margin: 0px auto;
+     padding: 10px;
+     text-align: center;
+}
+
+#content-contain nav#main #logo {
+     margin-right: 20px;
+     vertical-align: middle;
+}
+
+#content-contain nav#main ul.links {
+     background: url("../../../logo-wide.png") no-repeat scroll 0% 0% transparent;
+     display: inline-block;
+     font-size: 0px;
+     padding: 14px 11px 14px 336px;
+     text-transform: uppercase;
+     white-space: nowrap;
+}
+
+#content-contain nav#main ul.links li {
+     border-right: 1px dotted #999999;
+     display: inline-block;
+     line-height: 46px;
+     padding: 0px 10px;
+     text-align: center;
+}
+
+#content-contain nav#main ul.links li:first-child {
+    
+}
+
+#content-contain nav#main ul.links li:last-child {
+     border-right: 0px none;
+}
+
+#content-contain nav#main ul.links li a {
+     color: #444444;
+     display: inline-block;
+     font-size: 16px;
+     font-weight: 300;
+     letter-spacing: -0.2pt;
+     margin-bottom: 12px;
+     text-align: center;
+     text-decoration: none;
+     border-bottom: 0px solid rgba(150,255,20,0.1);
+}
+
+#content-contain nav#main ul.links li a:hover {
+     border-bottom: 5px solid #b4ff0a;
+     color: #777777;
+     
+     transition-duration: 0.2s;
+}
+
+#content-contain nav#main ul.links li a.current {
+     color: #8dcc04;
+}
+
+#contain #content-contain {
+     font-size: 14px;
+     position: relative;
+}
+
+#contain #content-contain section {
+     display: block;
+     font-size: 12px;
+     overflow: hidden;
+     vertical-align: top;
+}
+
+#contain #content-contain section, #contain #content-contain section #content {
+     margin: 0px ! important;
+     padding: 0px;
+}
+
+#contain #content-contain section #content > div {
+     clear: both;
+     overflow: hidden;
+     padding: 0px;
+}
+
+#contain #content-contain section #content h2 {
+     background: none repeat scroll 0% 0% rgba(40, 40, 40, 0.9);
+     clear: both;
+     color: #eeeeee;
+     font-size: 31px;
+     font-weight: 200;
+     line-height: 30px;
+     padding: 10px;
+     text-align: center;
+     width: 100%;
+}
+
+#contain #content-contain section #content h2 span {
+     display: inline-block;
+     text-align: left;
+     width: 900px;
+}
+
+#contain #content-contain section #content div h2 {
+     font-size: 34px;
+     font-weight: 200;
+     line-height: 56px;
+     margin-bottom: 16px;
+     padding-left: 16px;
+}
+
+section #content div p {
+     font-size: 16pt;
+     margin: 25px auto 0px;
+     padding: 0px 10px;
+     width: 900px;
+}
+
+#contain #content-contain section #content.index div {
+     padding-bottom: 25px;
+}
+
+#contain #content-contain section div#content div.clients {
+     padding-bottom: 40px;
+}
+
+#contain #content-contain section div#content div.clients p {
+     font-size: 13pt;
+     text-align: justify;
+}
+
+#contain #content-contain section div#content div.clientslist {
+     font-size: 0px;
+     overflow: hidden;
+     text-align: center;
+}
+
+#contain #content-contain section div#content div.clientslist p {
+     display: inline-block;
+     font-size: 0px;
+     line-height: 80px;
+     margin: 5px 1%;
+     min-height: 80px;
+     text-align: center;
+     width: 30%;
+}
+
+#contain #content-contain section div#content div.clientslist p img {
+     background: none repeat scroll 0% 0% #ffffff;
+     box-shadow: 1px 1px 12px rgba(11, 11, 11, 0.2);
+     max-height: 74px;
+     max-width: 100%;
+     vertical-align: middle;
+}
+
+#contain #content-contain section div#content.services {
+    
+}
+
+#contain #content-contain section div#content.services > div {
+     padding: 40px 0px;
+}
+
+#contain #content-contain section div#content.services div h3 {
+     color: #333333;
+     font-size: 26pt;
+     font-weight: 100;
+     letter-spacing: -0.33px;
+     line-height: 30pt;
+     margin: 0px auto;
+     padding: 10px 20px 0px 0%;
+     text-shadow: 1px 2px 3px rgba(0, 0, 0, 0.2);
+     width: 900px;
+}
+
+#contain #content-contain section div#content.services div p {
+     margin: 0px auto;
+     padding: 0px 20px 30px;
+}
+
+#contain #content-contain section #content div:nth-child(2n) {
+     background-color: rgba(35, 73, 125, 0.4);
+}
+
+#contain #content-contain section #content div:nth-child(2n) p {
+     color: #000000 ! important;
+}
+
+#contain #content-contain section #content div:nth-child(2n+1), #contain #content-contain section #content div.clientsfix {
+     background-color: rgba(255, 255, 255, 0.4);
+}
+
+#contain #content-contain section #content div:nth-child(2n+1) p, #contain #content-contain section #content div.clientsfix p {
+     color: #222244 ! important;
+     text-shadow: 1px 1px 3px rgba(240, 240, 240, 0.55);
+}
+
+#contain #content-contain section #content nav {
+     background: none repeat scroll 0% 0% #0ab8f2;
+     text-align: right;
+}
+
+#contain #content-contain section #content nav div {
+     background: none repeat scroll 0% 0% rgba(0, 0, 0, 0) ! important;
+     margin: 0px auto;
+     width: 900px;
+}
+
+#contain #content-contain section #content nav a {
+     color: #333333;
+     display: inline-block;
+     font-size: 17px;
+     padding: 7px 5px;
+     text-decoration: none;
+}
+
+#contain #content-contain section #content nav a.current {
+     background: linear-gradient(to top, #333333 0%, #043e51 46%, #076c8e 100%) repeat scroll 0% 0% transparent;
+     color: #ffffff;
+}
+
+#contain #content-contain section #content nav a:hover {
+     color: #dddddd;
+}
+
+#contain #content-contain section #content nav a span {
+     color: #ff0000;
+}
+
+#contain #content-contain section #content.services h2 {
+     background: none repeat scroll 0% 0% rgba(40, 40, 40, 0.9);
+     color: #f2f3f4;
+     font-size: 29pt;
+     line-height: 30pt;
+     padding: 10px 0px;
+}
+
+#contain #content-contain section #content.services h2 .symbol {
+     color: #aaaaaa;
+     display: inline;
+}
+
+#contain #content-contain section #content.services div {
+    
+}
+
+#contain #content-contain section #content div ul {
+     font-size: 14pt;
+     font-weight: 200;
+     list-style: outside none square;
+     margin: 0px auto 30px;
+     padding-left: 40px;
+     width: 900px;
+}
+
+#contain #content-contain section #content div ul li {
+     letter-spacing: -0.71pt;
+     line-height: 20pt;
+     padding-top: 10px;
+     text-align: justify;
+}
+
+#content.about div {
+     text-align: justify;
+}
+
+#content.about div p {
+     letter-spacing: 0.4px;
+}
+
+#content.about:first-child > div > p {
+     background: none repeat scroll 0% 0% rgba(250, 250, 250, 0.4);
+     box-shadow: 0px 0px 70px rgba(40, 40, 40, 0.2);
+     clear: right;
+     margin-top: 0px ! important;
+     overflow: hidden;
+     padding: 40px 20px ! important;
+}
+
+#content.about #aboutimg {
+     box-shadow: 1px 1px 20px rgba(40, 40, 40, 0.4);
+     display: block;
+     float: right;
+     margin: 5px 5px 5px 25px;
+     max-width: 260px;
+}
+
+#content.about .split {
+     background: none repeat scroll 0% 0% rgba(0, 0, 0, 0) ! important;
+     content: "";
+     height: 100%;
+     margin: 0px auto;
+     overflow: hidden;
+     text-align: center;
+     vertical-align: middle;
+     width: 900px;
+
+     clear: both;
+}
+
+section #content.about .split > p {
+     background: none repeat scroll 0% 0% rgba(230, 230, 230, 0.1);
+     border-radius: 3px;
+     display: table-cell ! important;
+     font-size: 13pt;
+     font-weight: 500;
+     letter-spacing: -0.5pt;
+     line-height: 18pt;
+     margin: 0px 1%;
+     overflow: hidden;
+     padding: 30px;
+     text-align: justify;
+     text-shadow: none ! important;
+     vertical-align: top;
+     width: 38% ! important;
+}
+
+section #content.about .split > p > img {
+     clear: both;
+     margin-bottom: 10px;
+     width: 100%;
+}
+
+#content div .faded_bg {
+     left: 0px;
+     margin: -23px 0px 0px 20%;
+     position: absolute;
+     z-index: -10;
+}
+
+#contain #content-contain #navigation {
+     background-color: rgba(35, 73, 125, 0.6);
+     display: block;
+     font-size: 12px;
+     margin: 0px;
+     overflow: hidden;
+     padding: 0px;
+     vertical-align: top;
+}
+
+#contain #content-contain #navigation ul {
+     display: block;
+     font-size: 0px;
+     height: 275px;
+     padding: 0px;
+     position: relative;
+     white-space: nowrap;
+}
+
+#contain #content-contain #navigation ul li {
+     display: block;
+     font-size: 18px;
+     font-weight: 300;
+     list-style-type: none;
+     vertical-align: top;
+     white-space: normal;
+     width: 100%;
+}
+
+#contain #content-contain #navigation ul > li > div {
+     height: 100%;
+     margin: 0px auto;
+     overflow: hidden;
+     width: 100%;
+}
+
+#contain #content-contain #navigation ul li div p {
+     margin-bottom: 20px;
+}
+
+#contain div.nav-pagination {
+     background-color: rgba(252, 252, 254, 0.7);
+     display: block;
+     margin: 0px auto;
+     padding: 10px 0px;
+     text-align: center;
+     width: 100%;
+}
+
+#contain div.nav-pagination a {
+     background: none repeat scroll 0% 0% transparent;
+     border-radius: 30px;
+     border: 1px solid rgba(10, 10, 10, 0.1);
+     color: #222222;
+     display: inline-block;
+     font-size: 22px;
+     line-height: 29px;
+     margin: 0px 4px;
+     padding: 0px 2px;
+     text-align: center;
+     text-decoration: none;
+}
+
+#contain div.nav-pagination a:hover {
+     background: none repeat scroll 0% 0% #dddddd;
+}
+
+#contain div.nav-pagination p.nav-pagination {
+     display: inline-block ! important;
+}
+
+#contain div.nav-pagination p.nav-pagination a {
+     background: none repeat scroll 0% 0% #b3fe0a;
+     box-shadow: 1px 1px 5px rgba(99, 0, 0, 0.1);
+     display: inline-block ! important;
+     line-height: 12px;
+}
+
+#contain div.nav-pagination p.nav-pagination a.active {
+     background: none repeat scroll 0% 0% #0ac2ff;
+     box-shadow: 1px 1px 5px #0ac2ff ! important;
+     color: #444444;
+}
+
+#navigation .caro li div h3 {
+     font-size: 30px;
+     font-weight: 300;
+}
+
+#navigation .caro div .boxCol .box h4 {
+     font-size: 29px;
+     font-weight: 300;
+     margin-bottom: 6px;
+     margin-top: 20px;
+}
+
+#contain #content-contain #navigation .caro {
+    
+}
+
+#contain #content-contain #navigation .boxWrap {
+     display: block;
+     font-size: 0px;
+     margin: 0px auto;
+     min-width: 900px;
+     padding: 0px;
+     text-align: center;
+}
+
+#contain #content-contain #navigation .slide {
+     display: inline-block;
+     height: 275px;
+     text-align: right;
+     width: 430px;
+}
+
+#contain #content-contain #navigation .boxCol {
+     background-image: url("../../images/backgrounds/escheresque_ste_@2X.png");
+     box-shadow: -1px -1px 30px rgba(2, 3, 10, 0.9);
+     display: inline-block;
+     height: 280px;
+     vertical-align: top;
+     width: 470px;
+}
+
+#contain #content-contain #navigation .boxCol .box {
+     color: #ffffff;
+     display: block;
+     font-size: 20px;
+     height: 100%;
+     line-height: 25px;
+     max-height: 275px;
+     overflow: hidden;
+     padding: 0px 20px;
+     text-align: left;
+     white-space: normal;
+}
+
+#contain #content-contain #content {
+     overflow: hidden;
+     padding: 4px;
+}
+
+#content h2 {
+     color: #ffffff;
+}
+
+#content p {
+     font-size: 14px;
+}
+
+#contain .bottom {
+     background-color: rgba(51, 51, 51, 0.8);
+     background-image: url("../../images/backgrounds/anaghBack.png");
+     background-position: -7px 2px;
+     background-repeat: no-repeat;
+     font-size: 14px;
+     height: 120px;
+     padding: 10px;
+}
+
+#contain .bottom ul {
+    
+}
+
+#contain .bottom ul li {
+    
+}
+
+#contain .socialMedia {
+     list-style: inside none none;
+}
+
+#contain .socialMedia li {
+     color: #ffffff;
+}
+
+#contain footer {
+     background-color: #000000;
+     background-image: url("../../images/backgrounds/zwartevilt.png");
+     border-top: 3px solid #343434;
+     color: #ffffff;
+     font-size: 14px;
+     left: 0px;
+     overflow: hidden;
+     padding: 4px;
+}
+
+#contain footer span {
+    
+}
+
+#contain footer img {
+     vertical-align: middle;
+}
+
+#contain footer div {
+     width: 50%;
+}
+
+#contain footer div.leftfoot {
+     float: left;
+}
+
+#contain footer div.rightfoot {
+     float: right;
+     text-align: right;
+}

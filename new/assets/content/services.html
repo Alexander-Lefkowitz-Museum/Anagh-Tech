@@ -1,0 +1,108 @@
+<style>
+body #contain #content-contain section div#content.services section#servicesoverview{
+	width: 900px;
+	margin: 0 auto !important;
+	display: table !important;
+	height: 100% !important;
+	overflow: hidden;
+	border-collapse: collapse;
+}
+body #contain #content-contain section div#content.services section#servicesoverview div{
+
+	display: table-row !important;
+}
+body #contain #content-contain section div#content.services section#servicesoverview div div{
+	width: 33%;
+	clear: none;
+	display: table-cell !important;
+}
+body #contain #content-contain section div#content.services section#servicesoverview div div h3{
+	font-size: 19pt;
+	text-align: center;
+	width: 100%;
+	margin-bottom: 9px;
+}
+body #contain #content-contain section div#content.services section#servicesoverview div div p{
+	width: 100%;
+	font-size: 12pt;
+	line-height: 15pt;
+	text-align: justify;
+}
+body #contain #content-contain section div#content.services section#servicesoverview div div a{
+		width: 60%;
+		display: block;
+
+		
+		text-align: center;
+		text-decoration: none;
+		background: rgba(165,232,14,0.6);
+		width: 65%;
+		margin: 15px auto;
+		font-size: 14pt;
+		line-height: 22pt;
+		color: rgba(255,255,255,0.8);
+		text-shadow: 1px 1px 1px rgba(0,0,0,0.5);
+		border: 1px solid rgba(14,178,232,0.5) /*#0eb2e8*/;
+		border-radius: 5px;
+		box-shadow: 1px 1px 5px rgba(14,178,232,0.2);
+		
+
+
+}
+body #contain #content-contain section div#content.services section#servicesoverview div div a:hover{
+		background: rgba(182,241,48,0.9);
+		color: rgba(250,250,250,1);
+		text-shadow: 1px 1px 16px rgba(20,20,20,0.4);
+		border: 1px solid rgba(14,178,232,0.8);
+		border-radius: 10px;
+		box-shadow: 1px 1px 15px rgba(14,178,232,0.7);
+}
+</style>
+
+<section>
+	<div id="content" class='services'>
+		<nav>
+			<div>
+			<a href="index.php?p=services-staffing" class="<?php if($p == 'services-staffing') print 'current'; ?>">&sigma; Staffing &nbsp;</a>
+			<a href="index.php?p=services-management" class="<?php if($p == 'services-management') print 'current'; ?>">&mu; Management &nbsp;</a>
+			<a href="index.php?p=services-consulting" class="<?php if($p == 'services-consulting') print 'current'; ?>">&kappa; Consulting &nbsp;</a>
+			</div>
+		</nav>
+
+		<h2><span>&equiv; Our Services</span></h2>
+		<section style="" id="servicesoverview">
+		<div>
+			<div>
+				<h3>Staffing</h3>
+
+				<p>
+				Extended staff for specific technical support requirements with qualified experts in virtually all technology languages, programs and systems.
+
+				</p>
+				 
+			</div>
+			<div>
+				<h3>Project &amp; Vendor Management</h3>
+				<p>
+				Using state-of-the-art and proven approaches, Anagh Tech delivers custom-designed solutions tailored for your specific business needs. Our project management services span the full lifecycle of an IT solution, from feasibility testing and requirements analysis through solution development, execution, implementation, and end-user training.
+
+				</p>
+				 
+			</div>
+			<div>
+				<h3>General IT Consulting</h3>
+				<p>
+				Our consulting services allow you to lower your costs and give you the total flexibility you need to meet the natural variability of work load and business cycle. These solutions are designed to meet your needs from short to long-term.
+
+				</p>
+								 
+			</div>
+		</div>
+		<div>
+			<div><a href="index.php?p=services-staffing">Read More...</a></div>
+			<div><a href="index.php?p=services-management">Read More...</a></div>
+			<div><a href="index.php?p=services-consulting">Read More...</a></div>
+		</div>
+		</section>
+	</div>
+</section>

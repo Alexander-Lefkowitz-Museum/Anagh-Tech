@@ -1,0 +1,374 @@
+* {
+     border: 0px none;
+     margin: 0px;
+     outline: 0px none;
+     padding: 0px;
+}
+
+ul, ol {
+     margin: 0px;
+     padding: 0px;
+}
+
+#navigation h3 {
+     margin: 0px;
+}
+
+body {
+     background-attachment: fixed;
+     background-image: url("../../images/backgrounds/squared_metal_@2X.png");
+}
+
+#contain {
+     font-size: 0px;
+     margin-top: 50px;
+     min-width: 900px;
+     width: 100%;
+}
+
+#contain header {
+	box-shadow: 0 0 10px #333;
+     background-color: #000000;
+     background-image: url("../../images/backgrounds/zwartevilt.png");
+     color: #ffffff;
+     font-size: 14px;
+     left: 0px;
+     overflow: hidden;
+     padding: 0px 16px;
+     padding-top: 6px;
+     position: fixed;
+     right: 0px;
+     top: 0px;
+     z-index: 100;
+}
+
+#contain header .anaghTitle {
+
+}
+
+#contain header .anaghTitle a {
+     color: #ddd;
+     display: inline-block;
+     text-decoration: none;
+     font-size: 18px;
+     line-height: 36px;
+     margin:0;
+}
+
+#contain header ul {
+     float: right;
+     font-size: 0px;
+     line-height: 36px;
+     padding: 0px;
+     white-space: nowrap;
+}
+
+#contain header ul li {
+     display: inline-block;
+     font-size: 15px;
+     padding: 0px 0px 0px 16px;
+}
+
+#contain header ul li a {
+     color: #dddddd;
+     text-decoration: none;
+}
+
+#content-contain nav#main {
+     background: none repeat scroll 0% 0% #fafafa;
+     box-shadow: 0px 6px 29px rgba(20, 20, 20, 0.75);
+     margin: 0px auto;
+     padding: 10px 0px 10px 38px;
+     text-align: center;
+}
+
+#content-contain nav#main #logo {
+     margin-right: 20px;
+     vertical-align: middle;
+}
+
+#content-contain nav#main ul.links {
+     display: inline-block;
+     font-size: 0px;
+     padding: 0px;
+     text-transform: uppercase;
+     white-space: nowrap;
+}
+
+#content-contain nav#main ul.links li {
+     border-right: 1px dotted #999999;
+     display: inline-block;
+     line-height: 72px;
+     text-align: center;
+     width: 162px;
+}
+
+#content-contain nav#main ul.links li:last-child {
+     border-right: 0px none;
+}
+
+#content-contain nav#main ul.links li a {
+     color: #444444;
+     display: inline-block;
+     font-size: 16px;
+     font-weight: 300;
+     letter-spacing: -0.2pt;
+     text-align: center;
+     text-decoration: none;
+     width: 92%;
+}
+
+#content-contain nav#main ul.links li a:hover {
+     border-bottom: 2px solid #b4ff0a;
+     color: #777777;
+}
+
+#content-contain nav#main ul.links li a.current {
+     color: #114400;
+}
+
+#contain #content-contain {
+     font-size: 14px;
+     position: relative;
+}
+
+#contain #content-contain section {
+     display: block;
+     font-size: 12px;
+     overflow: hidden;
+     vertical-align: top;
+}
+
+#contain #content-contain section, #contain #content-contain section #content {
+     margin: 0px ! important;
+     padding: 0px;
+}
+
+#contain #content-contain section #content div {
+     padding: 24px 10%;
+}
+
+#contain #content-contain section #content div h2 {
+     color: #111111;
+     font-size: 33pt;
+     font-weight: 200;
+}
+
+#contain #content-contain section #content div:nth-child(2n) {
+     background-color: rgba(35, 73, 125, 0.6);
+}
+
+#contain #content-contain section #content div:nth-child(2n+1) {
+     background-color: rgba(255, 255, 255, 0.4);
+}
+
+#contain #content-contain #navigation {
+     background-color: rgba(35, 73, 125, 0.6);
+     display: block;
+     font-size: 12px;
+     overflow: hidden;
+     padding: 0px;
+     margin:0;
+     vertical-align: top;
+}
+
+#contain #content-contain #navigation ul {
+     display: block;
+     font-size: 0px;
+     padding: 0px;
+     height: 275px;
+     position: relative;
+     white-space: nowrap;
+}
+
+#contain #content-contain #navigation ul li {
+     display: block;
+     font-size: 18px;
+     font-weight: 300;
+     list-style-type: none;
+     vertical-align: top;
+     white-space: normal;
+     width: 100%;
+}
+
+#contain #content-contain #navigation ul > li > div {
+     margin: 0px auto;
+     overflow: hidden;
+     width: 100%;
+     height: 100%;
+}
+
+
+#contain #content-contain #navigation ul li div p {
+     margin-bottom: 20px;
+}
+
+#contain div.nav-pagination {
+     background-color: rgba(252, 252, 254, 0.7);
+     display: block;
+     margin: 0 auto;
+     padding: 10px 0px;
+     text-align: center;
+     width: 100%;
+}
+
+#contain div.nav-pagination a {
+     background: none repeat scroll 0% 0% transparent;
+     border-radius: 30px;
+     border: 1px solid rgba(10, 10, 10, 0.2);
+     box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.2);
+     color: #222222;
+     display: inline-block;
+     font-size: 18px;
+     line-height: 10px;
+     margin: 4px;
+     padding: 0px 2px;
+     text-align: center;
+     text-decoration: none;
+}
+
+#contain div.nav-pagination a:hover {
+     background: none repeat scroll 0% 0% #aaaaaa;
+}
+
+#contain div.nav-pagination p.nav-pagination {
+     display: inline-block ! important;
+}
+
+#contain div.nav-pagination p.nav-pagination a {
+     background: none repeat scroll 0% 0% #115599;
+     display: inline-block ! important;
+}
+
+#contain div.nav-pagination p.nav-pagination a.active {
+     background: none repeat scroll 0% 0% #2266bb;
+     color: #444444;
+}
+
+#navigation .caro li div h3 {
+     font-size: 30px;
+     font-weight: 300;
+}
+
+#navigation .caro div .boxCol .box h4 {
+     font-size: 29px;
+     font-weight: 300;
+     margin-bottom: 6px;
+     margin-top: 20px;
+}
+
+#contain #content-contain #navigation .caro {
+    
+}
+
+
+#contain #content-contain #navigation .boxWrap {
+     display: block;
+     margin:  0 auto;
+	font-size: 0px;
+     padding: 0px;
+text-align: center;
+     min-width: 1000px;
+}
+
+#contain #content-contain #navigation .slide {
+
+     display: inline-block;
+     text-align: right;
+     height: 275px;
+     width: 430px;
+}
+
+#contain #content-contain #navigation .boxCol {
+     display: inline-block;
+     vertical-align: top;
+     width: 500px;
+     height: 280px;
+     background-image: url("../../images/backgrounds/escheresque_ste_@2X.png");
+     box-shadow: -1px -1px 30px rgba(2, 3, 10, 0.9);
+     
+}
+
+#contain #content-contain #navigation .boxCol .box {
+
+
+     color: #ffffff;
+     display: block;
+     font-size: 20px;
+     line-height: 25px;
+     height: 100%;
+     max-height: 275px;
+     overflow: hidden;
+     padding: 0px 20px;
+     text-align: left;
+     white-space: normal;
+}
+
+#contain #content-contain #content {
+     overflow: hidden;
+     padding: 4px;
+}
+
+#content h2 {
+     color: #ffffff;
+}
+
+#content p {
+     font-size: 14px;
+}
+
+#contain .bottom {
+     background-color: rgba(51, 51, 51, 0.8);
+     background-image: url("../../images/backgrounds/anaghBack.png");
+     background-position: -24px -27px;
+     background-repeat: no-repeat;
+     font-size: 14px;
+     height: 120px;
+     padding: 10px;
+}
+
+#contain .bottom ul {
+    
+}
+
+#contain .bottom ul li {
+    
+}
+
+#contain .socialMedia {
+     list-style: none inside none;
+}
+#contain .socialMedia li{
+	color: #fff;
+}
+#contain footer {
+     background-color: #000000;
+     background-image: url("../../images/backgrounds/zwartevilt.png");
+     border-top: 3px solid #343434;
+     color: #ffffff;
+     font-size: 14px;
+     left: 0px;
+     overflow: hidden;
+     padding: 4px;
+}
+
+#contain footer span {
+    
+}
+
+#contain footer img {
+     vertical-align: middle;
+}
+
+#contain footer div {
+     width: 50%;
+}
+
+#contain footer div.leftfoot {
+     float: left;
+}
+
+#contain footer div.rightfoot {
+     float: right;
+     text-align: right;
+}
